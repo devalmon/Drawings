@@ -14,6 +14,7 @@
 		8A16EF332489403700930BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A16EF322489403700930BE7 /* Assets.xcassets */; };
 		8A16EF362489403700930BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A16EF342489403700930BE7 /* LaunchScreen.storyboard */; };
 		8A16EF392489403700930BE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A16EF382489403700930BE7 /* main.m */; };
+		8A16EF412489408500930BE7 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A16EF402489408500930BE7 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		8A16EF352489403700930BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A16EF372489403700930BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A16EF382489403700930BE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A16EF3F2489408500930BE7 /* DrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		8A16EF402489408500930BE7 /* DrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		8A16EF252489403000930BE7 /* Drawings */ = {
 			isa = PBXGroup;
 			children = (
+				8A16EF3F2489408500930BE7 /* DrawingView.h */,
+				8A16EF402489408500930BE7 /* DrawingView.m */,
 				8A16EF262489403000930BE7 /* AppDelegate.h */,
 				8A16EF272489403000930BE7 /* AppDelegate.m */,
 				8A16EF292489403000930BE7 /* SceneDelegate.h */,
@@ -149,6 +154,7 @@
 				8A16EF2E2489403000930BE7 /* ViewController.m in Sources */,
 				8A16EF282489403000930BE7 /* AppDelegate.m in Sources */,
 				8A16EF392489403700930BE7 /* main.m in Sources */,
+				8A16EF412489408500930BE7 /* DrawingView.m in Sources */,
 				8A16EF2B2489403000930BE7 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

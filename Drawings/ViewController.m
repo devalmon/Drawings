@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "DrawingView.h"
+
+@class DrawingView;
 
 @interface ViewController ()
+
+@property (nonatomic, weak) IBOutlet DrawingView *drawingView;
 
 @end
 
@@ -17,6 +22,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor blackColor];
+}
+
+#pragma mark - Orientation
+
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    [self.drawingView setNeedsDisplay];
 }
 
 
